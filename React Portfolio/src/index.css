@@ -8,6 +8,33 @@ body{
     color: #eae2b7;
 }
 
+/* PORTFOLIO */
+.containerCard{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.projectCard {
+    margin-top: 3%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectCard, .projectCard img {
+    max-width: 320px !important;
+
+}
+.projectCard img{
+    border-radius: 10%;
+}
+.linkDiv {
+    display: flex;
+    flex-direction: row;
+    max-height: 26px;
+}
+
 /* ABOUT */
 #authorName{
     margin-top: 5%;
