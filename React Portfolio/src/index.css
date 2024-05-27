@@ -1,0 +1,56 @@
+/* 003049 blue
+d62828 red
+f77f00 orange
+fcbf49 creamy yellow
+eae2b7  light cream*/
+body{
+    background: #003049;
+    color: #eae2b7;
+}
+
+/* ABOUT */
+#authorName{
+    margin-top: 5%;
+}
+.lineBox{
+    border-bottom: #d62828 solid 1px;
+    width: auto;
+}
+#aboutText{
+    margin-top: 3%;
+}
+/* NAVBAR */
+a{
+    background: #eae2b7 !important;
+    border: #003049 solid 1px !important;
+}
+
+.bg-secondary {
+    background: #fcbf49 !important;
+}
+
+.container-fluid {
+    justify-content: flex-end !important;
+}
+
+.me-auto {
+    margin-right: auto !important;
+}
+
+@media (min-width: 420px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 420px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+}
+@media (min-width: 420px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+}
